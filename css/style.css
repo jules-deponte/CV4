@@ -1,0 +1,138 @@
+/* CSS code to affect the web page. */
+@font-face {
+    font-family: 'safirefontregular';
+    src: url('safire_font_1-webfont.woff2') format('woff2'),
+         url('safire_font_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* ==========   CLASSES   ==============  */
+.img_inline{
+    width: 100px;
+}
+
+.tables{
+
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+    padding-right: 20px;
+    
+}
+
+.div-header{
+    background-color: #EAF6F6;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.div-second{
+    /* background-color: wheat; */
+    text-align: center;
+}
+
+.div_skills{
+    /* background-color: wheat; */
+    text-align: center;
+    margin: 100px auto 100px auto;
+}
+
+.div_contact{
+
+
+}
+
+
+.title{
+    /* position: fixed; */
+    top: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.div_footer{
+    background-color: #EAF6F6;
+    /* height: 200px; */
+    margin: 50px auto 0px auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.p_contact{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p_footer{
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+/* ===========   IDS   ================= */
+#summaryTable{
+    text-align: center;
+}
+
+#title:hover{
+    color: gold;
+} 
+
+
+/* =============   ALL   =============== */
+body{
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    margin: 0px
+}
+
+hr{
+    background-color: #white;
+    border-color: rgb(216, 216, 216);
+    border-width: 10px;
+    border-style: dotted none none none;
+    height: 0px;
+    line-height: 10px;
+    width: 10%;
+}
+
+td{
+    height: 5px;
+    padding-right: 10px;
+}
+
+h1{
+    color: #FF851E;
+    font-family: 'safirefontregular', Arial, serif;
+    text-align: center;
+    font-size: 250%;
+
+}
+
+h2{
+    color: #000;
+    text-align: center;
+    font-family: 'safirefontregular', Arial, serif;
+}
+
+h3{
+    color: #000;
+    text-align: center;
+    font-family: 'safirefontregular', Arial, serif;
+}
+
+p{
+    max-width: 850px;
+    width: 100%;
+    text-align: left;
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
